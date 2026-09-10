@@ -1,0 +1,82 @@
+[
+  {
+    "id": "KB-101",
+    "intent": "ACCOUNT_BILLING",
+    "issue_keywords": ["billing", "charge", "subscription", "icloud storage", "payment", "card"],
+    "historical_customer_query": "I was charged $2.99 twice for my iCloud storage subscription this month. Please help refund one!",
+    "brand_resolution": "We can help look into double charges on your Apple ID! Please check your purchase history at reportaproblem.apple.com to verify charges. If verified, send us a DM with your Apple ID email for next steps.",
+    "resolution_steps": ["Check reportaproblem.apple.com", "Verify charge status", "DM support with Apple ID email"]
+  },
+  {
+    "id": "KB-102",
+    "intent": "ACCOUNT_BILLING",
+    "issue_keywords": ["unauthorized", "hacked", "unknown purchase", "stolen card"],
+    "historical_customer_query": "There is an unknown charge from Apple on my credit card statement that I didn't authorize!",
+    "brand_resolution": "Safety first! Please immediately review subscriptions and purchases under Settings > [Your Name] > Media & Purchases on your device. If unauthorized, request a refund at reportaproblem.apple.com and contact your bank if card details were compromised.",
+    "resolution_steps": ["Check Media & Purchases in Settings", "Request refund at reportaproblem.apple.com", "Contact bank if card compromised"]
+  },
+  {
+    "id": "KB-201",
+    "intent": "TECHNICAL_HARDWARE",
+    "issue_keywords": ["battery drain", "overheating", "ios update", "battery life"],
+    "historical_customer_query": "My iPhone battery is draining extremely fast after updating to the latest iOS version! It gets hot too.",
+    "brand_resolution": "It is normal for battery usage to temporarily increase up to 48 hours after a major iOS update while indexing completes. Check Settings > Battery to see top app usage, and update all apps in the App Store.",
+    "resolution_steps": ["Wait 24-48 hrs for indexing", "Check Settings > Battery for high usage apps", "Update apps in App Store"]
+  },
+  {
+    "id": "KB-202",
+    "intent": "TECHNICAL_HARDWARE",
+    "issue_keywords": ["black screen", "frozen", "won't turn on", "unresponsive"],
+    "historical_customer_query": "My phone screen is completely black and won't respond when I press buttons or charge it.",
+    "brand_resolution": "Let's perform a force restart! Press & quickly release Volume Up, press & release Volume Down, then press & hold the Side button until the Apple logo appears. Plug into power if needed.",
+    "resolution_steps": ["Force restart sequence (Vol Up -> Vol Down -> Hold Side button)", "Hold until Apple logo appears", "Plug into charger for 15 mins"]
+  },
+  {
+    "id": "KB-203",
+    "intent": "TECHNICAL_HARDWARE",
+    "issue_keywords": ["bluetooth", "airpods", "disconnecting", "pair"],
+    "historical_customer_query": "AirPods keep disconnecting every 5 minutes from my Mac and iPhone.",
+    "brand_resolution": "Try resetting your AirPods: place them in the case, hold the setup button on the back for 15 seconds until amber/white flash, then forget device in Bluetooth settings and re-pair.",
+    "resolution_steps": ["Put AirPods in charging case", "Hold setup button for 15s until amber/white", "Forget device & re-pair"]
+  },
+  {
+    "id": "KB-301",
+    "intent": "ORDER_SHIPPING",
+    "issue_keywords": ["order status", "shipping", "delivery", "tracking number", "fedex", "ups"],
+    "historical_customer_query": "Where is my order #W123456789? The shipping status hasn't updated in 3 days.",
+    "brand_resolution": "You can check real-time order and tracking updates at secure.apple.com/orderstatus or via the Apple Store app. DM us your order number if tracking shows delayed beyond estimated delivery date.",
+    "resolution_steps": ["Check apple.com/orderstatus", "Review carrier tracking details", "DM order number if past estimated delivery"]
+  },
+  {
+    "id": "KB-302",
+    "intent": "ORDER_SHIPPING",
+    "issue_keywords": ["missing package", "delivered but not here", "stolen package", "courier"],
+    "historical_customer_query": "Tracking says my iPad was delivered today, but there is no box at my front door or mailroom!",
+    "brand_resolution": "We understand how concerning this is! Please check with family members or building manager first. If still missing after 24 hours of marked delivery, DM us your order number and full delivery address so we can initiate a carrier search.",
+    "resolution_steps": ["Check around property and with neighbors", "Wait up to 24 hrs for courier scan error", "DM order # and address for carrier investigation"]
+  },
+  {
+    "id": "KB-401",
+    "intent": "REFUND_CANCEL",
+    "issue_keywords": ["refund status", "refund money", "cancel order", "money back"],
+    "historical_customer_query": "I requested a refund for an app subscription 5 days ago. When will I get my money back?",
+    "brand_resolution": "Refund processing times depend on your payment method: Store credit takes 48 hours, Credit/Debit card takes up to 30 days depending on financial institution. Track status at reportaproblem.apple.com.",
+    "resolution_steps": ["Check status at reportaproblem.apple.com", "Store credit: ~48 hours", "Credit/Debit card: up to 30 business days"]
+  },
+  {
+    "id": "KB-501",
+    "intent": "SERVICE_OUTAGE",
+    "issue_keywords": ["app store down", "server error", "imessage down", "apple music down", "outage"],
+    "historical_customer_query": "Is App Store down right now? I keep getting 'Cannot Connect to App Store' error on all devices.",
+    "brand_resolution": "Check system status across all Apple services at apple.com/support/systemstatus. If all systems are green, try toggling Airplane mode or restarting your Wi-Fi router.",
+    "resolution_steps": ["Visit apple.com/support/systemstatus", "Verify service operational status", "Restart Wi-Fi/Cellular network connection"]
+  },
+  {
+    "id": "KB-601",
+    "intent": "GENERAL_FEEDBACK",
+    "issue_keywords": ["feature request", "love product", "complaint", "store feedback", "suggestion"],
+    "historical_customer_query": "Please add dark mode to the Books app on Mac! Would love to see this feature.",
+    "brand_resolution": "Thank you for sharing your feedback with us! We love hearing ideas from our users. You can submit product feature requests directly to our engineering team at apple.com/feedback.",
+    "resolution_steps": ["Thank customer", "Direct to official feedback portal apple.com/feedback"]
+  }
+]

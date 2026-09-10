@@ -1,0 +1,1442 @@
+[
+  {
+    "id": "GOLD-001",
+    "inbound_text": "Urgent! @AppleSupport I was charged twice for my subscription this month. Can I get a refund?",
+    "gold_intent": "ACCOUNT_BILLING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "We can help review double charges on your account! Please check your purchase history at reportaproblem.apple.com to verify billing details, or DM us your Apple ID email for assistance.",
+    "annotation_notes": "Hand-labelled sample for ACCOUNT_BILLING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-002",
+    "inbound_text": "Hi @AppleSupport, There is a mystery charge of $19.99 on my credit card from Apple ID. I didn't buy anything!",
+    "gold_intent": "ACCOUNT_BILLING",
+    "gold_action": "ESCALATE",
+    "gold_response": "Safety first! Please review your recent purchases in Settings > [Your Name] > Media & Purchases. Since this involves potential unauthorized financial charges, our billing safety team needs to assist you via private DM.",
+    "annotation_notes": "Hand-labelled sample for ACCOUNT_BILLING with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-003",
+    "inbound_text": "@AppleSupport How do I cancel my monthly iCloud storage plan?",
+    "gold_intent": "ACCOUNT_BILLING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "You can easily downgrade or cancel your iCloud plan anytime! Go to Settings > [Your Name] > iCloud > Manage Storage > Change Storage Plan on your iPhone or iPad.",
+    "annotation_notes": "Hand-labelled sample for ACCOUNT_BILLING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-004",
+    "inbound_text": "@AppleSupport My payment method was declined for my App Store update. How do I fix it?",
+    "gold_intent": "ACCOUNT_BILLING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "You can update or add a new payment method by going to Settings > [Your Name] > Payment & Delivery on your device.",
+    "annotation_notes": "Hand-labelled sample for ACCOUNT_BILLING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-005",
+    "inbound_text": "Urgent! @AppleSupport I received an email saying my account is locked due to billing issues. Is this real?",
+    "gold_intent": "ACCOUNT_BILLING",
+    "gold_action": "ESCALATE",
+    "gold_response": "Please be cautious of phishing! Never click suspicious links. We recommend checking your account status directly via Settings on your device or sending us a DM with the sender email address.",
+    "annotation_notes": "Hand-labelled sample for ACCOUNT_BILLING with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-006",
+    "inbound_text": "Hi @AppleSupport, Can I transfer my paid app purchases from one Apple ID to another?",
+    "gold_intent": "ACCOUNT_BILLING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "App Store purchases are permanently linked to the Apple ID used at purchase and cannot be directly merged or transferred between accounts. Family Sharing can share eligible apps.",
+    "annotation_notes": "Hand-labelled sample for ACCOUNT_BILLING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-007",
+    "inbound_text": "Need help: I got charged for a free trial that I canceled yesterday!",
+    "gold_intent": "ACCOUNT_BILLING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "We understand your concern! You can check active subscription statuses and request refunds for recent renewals at reportaproblem.apple.com.",
+    "annotation_notes": "Hand-labelled sample for ACCOUNT_BILLING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-008",
+    "inbound_text": "Hi @AppleSupport, Someone hacked into my Apple ID and changed my credit card info!",
+    "gold_intent": "ACCOUNT_BILLING",
+    "gold_action": "ESCALATE",
+    "gold_response": "URGENT SECURITY ALERT: Please immediately visit iforgot.apple.com to reset your password and secure your account. We are escalating this immediately to our Account Security Team.",
+    "annotation_notes": "Hand-labelled sample for ACCOUNT_BILLING with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-009",
+    "inbound_text": "@AppleSupport Why was taxes added to my subscription invoice?",
+    "gold_intent": "ACCOUNT_BILLING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Local state and regional taxes are applied based on the billing address associated with your Apple ID payment method.",
+    "annotation_notes": "Hand-labelled sample for ACCOUNT_BILLING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-010",
+    "inbound_text": "Can I pay my subscription using a gift card balance?",
+    "gold_intent": "ACCOUNT_BILLING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Yes! Redeemed Apple Gift Cards add funds to your Apple Account balance, which is automatically used for subscriptions and app purchases.",
+    "annotation_notes": "Hand-labelled sample for ACCOUNT_BILLING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-011",
+    "inbound_text": "Hi @AppleSupport, I was charged twice for my subscription this month. Can I get a refund?",
+    "gold_intent": "ACCOUNT_BILLING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "We can help review double charges on your account! Please check your purchase history at reportaproblem.apple.com to verify billing details, or DM us your Apple ID email for assistance.",
+    "annotation_notes": "Hand-labelled sample for ACCOUNT_BILLING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-012",
+    "inbound_text": "@AppleSupport There is a mystery charge of $19.99 on my credit card from Apple ID. I didn't buy anything!",
+    "gold_intent": "ACCOUNT_BILLING",
+    "gold_action": "ESCALATE",
+    "gold_response": "Safety first! Please review your recent purchases in Settings > [Your Name] > Media & Purchases. Since this involves potential unauthorized financial charges, our billing safety team needs to assist you via private DM.",
+    "annotation_notes": "Hand-labelled sample for ACCOUNT_BILLING with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-013",
+    "inbound_text": "Urgent! @AppleSupport How do I cancel my monthly iCloud storage plan?",
+    "gold_intent": "ACCOUNT_BILLING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "You can easily downgrade or cancel your iCloud plan anytime! Go to Settings > [Your Name] > iCloud > Manage Storage > Change Storage Plan on your iPhone or iPad.",
+    "annotation_notes": "Hand-labelled sample for ACCOUNT_BILLING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-014",
+    "inbound_text": "Need help: My payment method was declined for my App Store update. How do I fix it?",
+    "gold_intent": "ACCOUNT_BILLING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "You can update or add a new payment method by going to Settings > [Your Name] > Payment & Delivery on your device.",
+    "annotation_notes": "Hand-labelled sample for ACCOUNT_BILLING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-015",
+    "inbound_text": "Need help: I received an email saying my account is locked due to billing issues. Is this real?",
+    "gold_intent": "ACCOUNT_BILLING",
+    "gold_action": "ESCALATE",
+    "gold_response": "Please be cautious of phishing! Never click suspicious links. We recommend checking your account status directly via Settings on your device or sending us a DM with the sender email address.",
+    "annotation_notes": "Hand-labelled sample for ACCOUNT_BILLING with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-016",
+    "inbound_text": "Hey team, Can I transfer my paid app purchases from one Apple ID to another?",
+    "gold_intent": "ACCOUNT_BILLING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "App Store purchases are permanently linked to the Apple ID used at purchase and cannot be directly merged or transferred between accounts. Family Sharing can share eligible apps.",
+    "annotation_notes": "Hand-labelled sample for ACCOUNT_BILLING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-017",
+    "inbound_text": "@AppleSupport I got charged for a free trial that I canceled yesterday!",
+    "gold_intent": "ACCOUNT_BILLING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "We understand your concern! You can check active subscription statuses and request refunds for recent renewals at reportaproblem.apple.com.",
+    "annotation_notes": "Hand-labelled sample for ACCOUNT_BILLING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-018",
+    "inbound_text": "Hey team, Someone hacked into my Apple ID and changed my credit card info!",
+    "gold_intent": "ACCOUNT_BILLING",
+    "gold_action": "ESCALATE",
+    "gold_response": "URGENT SECURITY ALERT: Please immediately visit iforgot.apple.com to reset your password and secure your account. We are escalating this immediately to our Account Security Team.",
+    "annotation_notes": "Hand-labelled sample for ACCOUNT_BILLING with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-019",
+    "inbound_text": "@AppleSupport Why was taxes added to my subscription invoice?",
+    "gold_intent": "ACCOUNT_BILLING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Local state and regional taxes are applied based on the billing address associated with your Apple ID payment method.",
+    "annotation_notes": "Hand-labelled sample for ACCOUNT_BILLING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-020",
+    "inbound_text": "Hey team, Can I pay my subscription using a gift card balance?",
+    "gold_intent": "ACCOUNT_BILLING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Yes! Redeemed Apple Gift Cards add funds to your Apple Account balance, which is automatically used for subscriptions and app purchases.",
+    "annotation_notes": "Hand-labelled sample for ACCOUNT_BILLING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-021",
+    "inbound_text": "Hi @AppleSupport, I was charged twice for my subscription this month. Can I get a refund?",
+    "gold_intent": "ACCOUNT_BILLING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "We can help review double charges on your account! Please check your purchase history at reportaproblem.apple.com to verify billing details, or DM us your Apple ID email for assistance.",
+    "annotation_notes": "Hand-labelled sample for ACCOUNT_BILLING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-022",
+    "inbound_text": "Hi @AppleSupport, There is a mystery charge of $19.99 on my credit card from Apple ID. I didn't buy anything!",
+    "gold_intent": "ACCOUNT_BILLING",
+    "gold_action": "ESCALATE",
+    "gold_response": "Safety first! Please review your recent purchases in Settings > [Your Name] > Media & Purchases. Since this involves potential unauthorized financial charges, our billing safety team needs to assist you via private DM.",
+    "annotation_notes": "Hand-labelled sample for ACCOUNT_BILLING with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-023",
+    "inbound_text": "Hey team, How do I cancel my monthly iCloud storage plan?",
+    "gold_intent": "ACCOUNT_BILLING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "You can easily downgrade or cancel your iCloud plan anytime! Go to Settings > [Your Name] > iCloud > Manage Storage > Change Storage Plan on your iPhone or iPad.",
+    "annotation_notes": "Hand-labelled sample for ACCOUNT_BILLING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-024",
+    "inbound_text": "Hey team, My payment method was declined for my App Store update. How do I fix it?",
+    "gold_intent": "ACCOUNT_BILLING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "You can update or add a new payment method by going to Settings > [Your Name] > Payment & Delivery on your device.",
+    "annotation_notes": "Hand-labelled sample for ACCOUNT_BILLING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-025",
+    "inbound_text": "Urgent! @AppleSupport I received an email saying my account is locked due to billing issues. Is this real?",
+    "gold_intent": "ACCOUNT_BILLING",
+    "gold_action": "ESCALATE",
+    "gold_response": "Please be cautious of phishing! Never click suspicious links. We recommend checking your account status directly via Settings on your device or sending us a DM with the sender email address.",
+    "annotation_notes": "Hand-labelled sample for ACCOUNT_BILLING with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-026",
+    "inbound_text": "Can I transfer my paid app purchases from one Apple ID to another?",
+    "gold_intent": "ACCOUNT_BILLING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "App Store purchases are permanently linked to the Apple ID used at purchase and cannot be directly merged or transferred between accounts. Family Sharing can share eligible apps.",
+    "annotation_notes": "Hand-labelled sample for ACCOUNT_BILLING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-027",
+    "inbound_text": "Need help: I got charged for a free trial that I canceled yesterday!",
+    "gold_intent": "ACCOUNT_BILLING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "We understand your concern! You can check active subscription statuses and request refunds for recent renewals at reportaproblem.apple.com.",
+    "annotation_notes": "Hand-labelled sample for ACCOUNT_BILLING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-028",
+    "inbound_text": "Someone hacked into my Apple ID and changed my credit card info!",
+    "gold_intent": "ACCOUNT_BILLING",
+    "gold_action": "ESCALATE",
+    "gold_response": "URGENT SECURITY ALERT: Please immediately visit iforgot.apple.com to reset your password and secure your account. We are escalating this immediately to our Account Security Team.",
+    "annotation_notes": "Hand-labelled sample for ACCOUNT_BILLING with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-029",
+    "inbound_text": "Urgent! @AppleSupport Why was taxes added to my subscription invoice?",
+    "gold_intent": "ACCOUNT_BILLING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Local state and regional taxes are applied based on the billing address associated with your Apple ID payment method.",
+    "annotation_notes": "Hand-labelled sample for ACCOUNT_BILLING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-030",
+    "inbound_text": "Hey team, Can I pay my subscription using a gift card balance?",
+    "gold_intent": "ACCOUNT_BILLING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Yes! Redeemed Apple Gift Cards add funds to your Apple Account balance, which is automatically used for subscriptions and app purchases.",
+    "annotation_notes": "Hand-labelled sample for ACCOUNT_BILLING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-031",
+    "inbound_text": "Hi @AppleSupport, My iPhone 13 battery drains from 100% to zero in 2 hours after updating iOS!",
+    "gold_intent": "TECHNICAL_HARDWARE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Battery consumption may temporarily increase up to 48 hours after a major iOS update while background indexing completes. Check Settings > Battery for app breakdown.",
+    "annotation_notes": "Hand-labelled sample for TECHNICAL_HARDWARE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-032",
+    "inbound_text": "Hey team, Screen completely black and unresponsive after dropping phone. Sound still plays.",
+    "gold_intent": "TECHNICAL_HARDWARE",
+    "gold_action": "ESCALATE",
+    "gold_response": "Since the display is unreadable after a physical drop, hardware repair may be required. Please send us a DM so we can check your AppleCare coverage and schedule a Store visit.",
+    "annotation_notes": "Hand-labelled sample for TECHNICAL_HARDWARE with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-033",
+    "inbound_text": "Hi @AppleSupport, AirPods Pro left earbud is crackling and has static sound when noise cancellation is on.",
+    "gold_intent": "TECHNICAL_HARDWARE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Try cleaning the mesh speaker grilles and updating your device to the latest software. If issue persists, check if eligible for the AirPods Service Program.",
+    "annotation_notes": "Hand-labelled sample for TECHNICAL_HARDWARE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-034",
+    "inbound_text": "@AppleSupport MacBook Pro fan is spinning super fast and keyboard feels very hot.",
+    "gold_intent": "TECHNICAL_HARDWARE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Close resource-heavy apps via Activity Monitor and check for ventilation blockage. You can also reset SMC/NVRAM if using an Intel-based Mac.",
+    "annotation_notes": "Hand-labelled sample for TECHNICAL_HARDWARE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-035",
+    "inbound_text": "Hey team, Bluetooth keeps disconnecting every 5 minutes from my Apple Watch.",
+    "gold_intent": "TECHNICAL_HARDWARE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Try toggling Bluetooth off and on in Settings, or unpair and re-pair your Apple Watch using the Watch app on your iPhone.",
+    "annotation_notes": "Hand-labelled sample for TECHNICAL_HARDWARE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-036",
+    "inbound_text": "@AppleSupport Camera app shows a black screen whenever I switch to 3x zoom.",
+    "gold_intent": "TECHNICAL_HARDWARE",
+    "gold_action": "ESCALATE",
+    "gold_response": "If restarting your phone does not restore the camera feed, it might indicate a hardware sensor issue. DM us your serial number for diagnostic options.",
+    "annotation_notes": "Hand-labelled sample for TECHNICAL_HARDWARE with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-037",
+    "inbound_text": "@AppleSupport Face ID stopped working and says 'Face ID is not available' on screen.",
+    "gold_intent": "TECHNICAL_HARDWARE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Make sure the TrueDepth camera is clean and not covered by a screen protector. Try resetting Face ID in Settings > Face ID & Passcode.",
+    "annotation_notes": "Hand-labelled sample for TECHNICAL_HARDWARE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-038",
+    "inbound_text": "Hey team, My iPad won't turn on or take a charge even after leaving it plugged in all night.",
+    "gold_intent": "TECHNICAL_HARDWARE",
+    "gold_action": "ESCALATE",
+    "gold_response": "Let's perform a forced recovery charge test. If still non-responsive, hardware inspection is required. DM us to set up a service appointment.",
+    "annotation_notes": "Hand-labelled sample for TECHNICAL_HARDWARE with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-039",
+    "inbound_text": "Need help: Wi-Fi button is grayed out in Settings and cannot be toggled on.",
+    "gold_intent": "TECHNICAL_HARDWARE",
+    "gold_action": "ESCALATE",
+    "gold_response": "A grayed-out Wi-Fi toggle can indicate a hardware Wi-Fi chip fault. Please DM us your device IMEI/Serial number to check repair options.",
+    "annotation_notes": "Hand-labelled sample for TECHNICAL_HARDWARE with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-040",
+    "inbound_text": "Hi @AppleSupport, Microphone on iPhone makes my voice sound muffled during calls.",
+    "gold_intent": "TECHNICAL_HARDWARE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Check if protective cases or dirt are blocking the microphone grilles at the bottom of the device. Test recording a voice memo to verify microphone clarity.",
+    "annotation_notes": "Hand-labelled sample for TECHNICAL_HARDWARE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-041",
+    "inbound_text": "Urgent! @AppleSupport My iPhone 13 battery drains from 100% to zero in 2 hours after updating iOS!",
+    "gold_intent": "TECHNICAL_HARDWARE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Battery consumption may temporarily increase up to 48 hours after a major iOS update while background indexing completes. Check Settings > Battery for app breakdown.",
+    "annotation_notes": "Hand-labelled sample for TECHNICAL_HARDWARE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-042",
+    "inbound_text": "Hey team, Screen completely black and unresponsive after dropping phone. Sound still plays.",
+    "gold_intent": "TECHNICAL_HARDWARE",
+    "gold_action": "ESCALATE",
+    "gold_response": "Since the display is unreadable after a physical drop, hardware repair may be required. Please send us a DM so we can check your AppleCare coverage and schedule a Store visit.",
+    "annotation_notes": "Hand-labelled sample for TECHNICAL_HARDWARE with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-043",
+    "inbound_text": "Hi @AppleSupport, AirPods Pro left earbud is crackling and has static sound when noise cancellation is on.",
+    "gold_intent": "TECHNICAL_HARDWARE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Try cleaning the mesh speaker grilles and updating your device to the latest software. If issue persists, check if eligible for the AirPods Service Program.",
+    "annotation_notes": "Hand-labelled sample for TECHNICAL_HARDWARE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-044",
+    "inbound_text": "@AppleSupport MacBook Pro fan is spinning super fast and keyboard feels very hot.",
+    "gold_intent": "TECHNICAL_HARDWARE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Close resource-heavy apps via Activity Monitor and check for ventilation blockage. You can also reset SMC/NVRAM if using an Intel-based Mac.",
+    "annotation_notes": "Hand-labelled sample for TECHNICAL_HARDWARE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-045",
+    "inbound_text": "Hey team, Bluetooth keeps disconnecting every 5 minutes from my Apple Watch.",
+    "gold_intent": "TECHNICAL_HARDWARE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Try toggling Bluetooth off and on in Settings, or unpair and re-pair your Apple Watch using the Watch app on your iPhone.",
+    "annotation_notes": "Hand-labelled sample for TECHNICAL_HARDWARE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-046",
+    "inbound_text": "Urgent! @AppleSupport Camera app shows a black screen whenever I switch to 3x zoom.",
+    "gold_intent": "TECHNICAL_HARDWARE",
+    "gold_action": "ESCALATE",
+    "gold_response": "If restarting your phone does not restore the camera feed, it might indicate a hardware sensor issue. DM us your serial number for diagnostic options.",
+    "annotation_notes": "Hand-labelled sample for TECHNICAL_HARDWARE with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-047",
+    "inbound_text": "Face ID stopped working and says 'Face ID is not available' on screen.",
+    "gold_intent": "TECHNICAL_HARDWARE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Make sure the TrueDepth camera is clean and not covered by a screen protector. Try resetting Face ID in Settings > Face ID & Passcode.",
+    "annotation_notes": "Hand-labelled sample for TECHNICAL_HARDWARE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-048",
+    "inbound_text": "My iPad won't turn on or take a charge even after leaving it plugged in all night.",
+    "gold_intent": "TECHNICAL_HARDWARE",
+    "gold_action": "ESCALATE",
+    "gold_response": "Let's perform a forced recovery charge test. If still non-responsive, hardware inspection is required. DM us to set up a service appointment.",
+    "annotation_notes": "Hand-labelled sample for TECHNICAL_HARDWARE with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-049",
+    "inbound_text": "Hi @AppleSupport, Wi-Fi button is grayed out in Settings and cannot be toggled on.",
+    "gold_intent": "TECHNICAL_HARDWARE",
+    "gold_action": "ESCALATE",
+    "gold_response": "A grayed-out Wi-Fi toggle can indicate a hardware Wi-Fi chip fault. Please DM us your device IMEI/Serial number to check repair options.",
+    "annotation_notes": "Hand-labelled sample for TECHNICAL_HARDWARE with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-050",
+    "inbound_text": "Urgent! @AppleSupport Microphone on iPhone makes my voice sound muffled during calls.",
+    "gold_intent": "TECHNICAL_HARDWARE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Check if protective cases or dirt are blocking the microphone grilles at the bottom of the device. Test recording a voice memo to verify microphone clarity.",
+    "annotation_notes": "Hand-labelled sample for TECHNICAL_HARDWARE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-051",
+    "inbound_text": "My iPhone 13 battery drains from 100% to zero in 2 hours after updating iOS!",
+    "gold_intent": "TECHNICAL_HARDWARE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Battery consumption may temporarily increase up to 48 hours after a major iOS update while background indexing completes. Check Settings > Battery for app breakdown.",
+    "annotation_notes": "Hand-labelled sample for TECHNICAL_HARDWARE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-052",
+    "inbound_text": "Hey team, Screen completely black and unresponsive after dropping phone. Sound still plays.",
+    "gold_intent": "TECHNICAL_HARDWARE",
+    "gold_action": "ESCALATE",
+    "gold_response": "Since the display is unreadable after a physical drop, hardware repair may be required. Please send us a DM so we can check your AppleCare coverage and schedule a Store visit.",
+    "annotation_notes": "Hand-labelled sample for TECHNICAL_HARDWARE with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-053",
+    "inbound_text": "AirPods Pro left earbud is crackling and has static sound when noise cancellation is on.",
+    "gold_intent": "TECHNICAL_HARDWARE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Try cleaning the mesh speaker grilles and updating your device to the latest software. If issue persists, check if eligible for the AirPods Service Program.",
+    "annotation_notes": "Hand-labelled sample for TECHNICAL_HARDWARE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-054",
+    "inbound_text": "Need help: MacBook Pro fan is spinning super fast and keyboard feels very hot.",
+    "gold_intent": "TECHNICAL_HARDWARE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Close resource-heavy apps via Activity Monitor and check for ventilation blockage. You can also reset SMC/NVRAM if using an Intel-based Mac.",
+    "annotation_notes": "Hand-labelled sample for TECHNICAL_HARDWARE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-055",
+    "inbound_text": "Hi @AppleSupport, Bluetooth keeps disconnecting every 5 minutes from my Apple Watch.",
+    "gold_intent": "TECHNICAL_HARDWARE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Try toggling Bluetooth off and on in Settings, or unpair and re-pair your Apple Watch using the Watch app on your iPhone.",
+    "annotation_notes": "Hand-labelled sample for TECHNICAL_HARDWARE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-056",
+    "inbound_text": "Hey team, Camera app shows a black screen whenever I switch to 3x zoom.",
+    "gold_intent": "TECHNICAL_HARDWARE",
+    "gold_action": "ESCALATE",
+    "gold_response": "If restarting your phone does not restore the camera feed, it might indicate a hardware sensor issue. DM us your serial number for diagnostic options.",
+    "annotation_notes": "Hand-labelled sample for TECHNICAL_HARDWARE with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-057",
+    "inbound_text": "Hey team, Face ID stopped working and says 'Face ID is not available' on screen.",
+    "gold_intent": "TECHNICAL_HARDWARE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Make sure the TrueDepth camera is clean and not covered by a screen protector. Try resetting Face ID in Settings > Face ID & Passcode.",
+    "annotation_notes": "Hand-labelled sample for TECHNICAL_HARDWARE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-058",
+    "inbound_text": "Urgent! @AppleSupport My iPad won't turn on or take a charge even after leaving it plugged in all night.",
+    "gold_intent": "TECHNICAL_HARDWARE",
+    "gold_action": "ESCALATE",
+    "gold_response": "Let's perform a forced recovery charge test. If still non-responsive, hardware inspection is required. DM us to set up a service appointment.",
+    "annotation_notes": "Hand-labelled sample for TECHNICAL_HARDWARE with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-059",
+    "inbound_text": "Urgent! @AppleSupport Wi-Fi button is grayed out in Settings and cannot be toggled on.",
+    "gold_intent": "TECHNICAL_HARDWARE",
+    "gold_action": "ESCALATE",
+    "gold_response": "A grayed-out Wi-Fi toggle can indicate a hardware Wi-Fi chip fault. Please DM us your device IMEI/Serial number to check repair options.",
+    "annotation_notes": "Hand-labelled sample for TECHNICAL_HARDWARE with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-060",
+    "inbound_text": "Hey team, Microphone on iPhone makes my voice sound muffled during calls.",
+    "gold_intent": "TECHNICAL_HARDWARE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Check if protective cases or dirt are blocking the microphone grilles at the bottom of the device. Test recording a voice memo to verify microphone clarity.",
+    "annotation_notes": "Hand-labelled sample for TECHNICAL_HARDWARE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-061",
+    "inbound_text": "Hi @AppleSupport, Where is my order #W88492018? FedEx tracking has been stuck for 4 days.",
+    "gold_intent": "ORDER_SHIPPING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "You can track real-time delivery status at apple.com/orderstatus. If your package is past the estimated delivery window, DM us your order number for support.",
+    "annotation_notes": "Hand-labelled sample for ORDER_SHIPPING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-062",
+    "inbound_text": "Urgent! @AppleSupport Tracking says package delivered today but I checked my porch and nothing is there!",
+    "gold_intent": "ORDER_SHIPPING",
+    "gold_action": "ESCALATE",
+    "gold_response": "We know how distressing a missing order is! Please check with neighbors or front desk. If still missing, DM us your order number and full delivery address so we can launch a carrier search.",
+    "annotation_notes": "Hand-labelled sample for ORDER_SHIPPING with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-063",
+    "inbound_text": "Hi @AppleSupport, Can I change my shipping address for order #W99301294 before it ships?",
+    "gold_intent": "ORDER_SHIPPING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Address changes can be requested at apple.com/orderstatus as long as the item has not entered the 'Preparing to Ship' state.",
+    "annotation_notes": "Hand-labelled sample for ORDER_SHIPPING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-064",
+    "inbound_text": "Need help: Trade-in return kit has not arrived in my mail yet. It has been a week.",
+    "gold_intent": "ORDER_SHIPPING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Trade-in shipping kits typically arrive within 3-5 business days. You can track trade-in kit status online or request a replacement kit via apple.com/tradein.",
+    "annotation_notes": "Hand-labelled sample for ORDER_SHIPPING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-065",
+    "inbound_text": "Need help: My package arrived damaged with a hole in the box and broken screen!",
+    "gold_intent": "ORDER_SHIPPING",
+    "gold_action": "ESCALATE",
+    "gold_response": "We are so sorry your shipment arrived damaged! Please do not throw away the box. Send us a DM immediately with your order number and photo of the damage so we can send a replacement.",
+    "annotation_notes": "Hand-labelled sample for ORDER_SHIPPING with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-066",
+    "inbound_text": "Urgent! @AppleSupport Do I need to sign in person for my Mac shipment delivery?",
+    "gold_intent": "ORDER_SHIPPING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "High-value shipments require a signature upon delivery. You can manage signature preferences via FedEx Delivery Manager or UPS My Choice.",
+    "annotation_notes": "Hand-labelled sample for ORDER_SHIPPING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-067",
+    "inbound_text": "Urgent! @AppleSupport Can I pick up my online order at a local Apple Store instead of home delivery?",
+    "gold_intent": "ORDER_SHIPPING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "If Apple Store Pickup was selected during checkout, you will receive a notification email when your item is ready for pickup.",
+    "annotation_notes": "Hand-labelled sample for ORDER_SHIPPING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-068",
+    "inbound_text": "Need help: Custom engraved iPad order is taking much longer than expected. Why?",
+    "gold_intent": "ORDER_SHIPPING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Customized and engraved items require additional processing time prior to dispatch. Check apple.com/orderstatus for updated manufacturing timelines.",
+    "annotation_notes": "Hand-labelled sample for ORDER_SHIPPING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-069",
+    "inbound_text": "Urgent! @AppleSupport Courier driver delivered my package to the wrong street address!",
+    "gold_intent": "ORDER_SHIPPING",
+    "gold_action": "ESCALATE",
+    "gold_response": "Misdelivery requires immediate carrier investigation. DM us your order number, tracking number, and correct address so we can initiate urgent resolution.",
+    "annotation_notes": "Hand-labelled sample for ORDER_SHIPPING with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-070",
+    "inbound_text": "Urgent! @AppleSupport What happens if nobody is home to sign for the delivery?",
+    "gold_intent": "ORDER_SHIPPING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "The carrier will leave a door tag and attempt redelivery on the next business day, or hold it at a local access point for pickup.",
+    "annotation_notes": "Hand-labelled sample for ORDER_SHIPPING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-071",
+    "inbound_text": "Where is my order #W88492018? FedEx tracking has been stuck for 4 days.",
+    "gold_intent": "ORDER_SHIPPING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "You can track real-time delivery status at apple.com/orderstatus. If your package is past the estimated delivery window, DM us your order number for support.",
+    "annotation_notes": "Hand-labelled sample for ORDER_SHIPPING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-072",
+    "inbound_text": "Need help: Tracking says package delivered today but I checked my porch and nothing is there!",
+    "gold_intent": "ORDER_SHIPPING",
+    "gold_action": "ESCALATE",
+    "gold_response": "We know how distressing a missing order is! Please check with neighbors or front desk. If still missing, DM us your order number and full delivery address so we can launch a carrier search.",
+    "annotation_notes": "Hand-labelled sample for ORDER_SHIPPING with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-073",
+    "inbound_text": "Need help: Can I change my shipping address for order #W99301294 before it ships?",
+    "gold_intent": "ORDER_SHIPPING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Address changes can be requested at apple.com/orderstatus as long as the item has not entered the 'Preparing to Ship' state.",
+    "annotation_notes": "Hand-labelled sample for ORDER_SHIPPING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-074",
+    "inbound_text": "Hey team, Trade-in return kit has not arrived in my mail yet. It has been a week.",
+    "gold_intent": "ORDER_SHIPPING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Trade-in shipping kits typically arrive within 3-5 business days. You can track trade-in kit status online or request a replacement kit via apple.com/tradein.",
+    "annotation_notes": "Hand-labelled sample for ORDER_SHIPPING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-075",
+    "inbound_text": "@AppleSupport My package arrived damaged with a hole in the box and broken screen!",
+    "gold_intent": "ORDER_SHIPPING",
+    "gold_action": "ESCALATE",
+    "gold_response": "We are so sorry your shipment arrived damaged! Please do not throw away the box. Send us a DM immediately with your order number and photo of the damage so we can send a replacement.",
+    "annotation_notes": "Hand-labelled sample for ORDER_SHIPPING with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-076",
+    "inbound_text": "Hey team, Do I need to sign in person for my Mac shipment delivery?",
+    "gold_intent": "ORDER_SHIPPING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "High-value shipments require a signature upon delivery. You can manage signature preferences via FedEx Delivery Manager or UPS My Choice.",
+    "annotation_notes": "Hand-labelled sample for ORDER_SHIPPING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-077",
+    "inbound_text": "@AppleSupport Can I pick up my online order at a local Apple Store instead of home delivery?",
+    "gold_intent": "ORDER_SHIPPING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "If Apple Store Pickup was selected during checkout, you will receive a notification email when your item is ready for pickup.",
+    "annotation_notes": "Hand-labelled sample for ORDER_SHIPPING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-078",
+    "inbound_text": "Custom engraved iPad order is taking much longer than expected. Why?",
+    "gold_intent": "ORDER_SHIPPING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Customized and engraved items require additional processing time prior to dispatch. Check apple.com/orderstatus for updated manufacturing timelines.",
+    "annotation_notes": "Hand-labelled sample for ORDER_SHIPPING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-079",
+    "inbound_text": "Urgent! @AppleSupport Courier driver delivered my package to the wrong street address!",
+    "gold_intent": "ORDER_SHIPPING",
+    "gold_action": "ESCALATE",
+    "gold_response": "Misdelivery requires immediate carrier investigation. DM us your order number, tracking number, and correct address so we can initiate urgent resolution.",
+    "annotation_notes": "Hand-labelled sample for ORDER_SHIPPING with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-080",
+    "inbound_text": "Hey team, What happens if nobody is home to sign for the delivery?",
+    "gold_intent": "ORDER_SHIPPING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "The carrier will leave a door tag and attempt redelivery on the next business day, or hold it at a local access point for pickup.",
+    "annotation_notes": "Hand-labelled sample for ORDER_SHIPPING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-081",
+    "inbound_text": "Need help: Where is my order #W88492018? FedEx tracking has been stuck for 4 days.",
+    "gold_intent": "ORDER_SHIPPING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "You can track real-time delivery status at apple.com/orderstatus. If your package is past the estimated delivery window, DM us your order number for support.",
+    "annotation_notes": "Hand-labelled sample for ORDER_SHIPPING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-082",
+    "inbound_text": "@AppleSupport Tracking says package delivered today but I checked my porch and nothing is there!",
+    "gold_intent": "ORDER_SHIPPING",
+    "gold_action": "ESCALATE",
+    "gold_response": "We know how distressing a missing order is! Please check with neighbors or front desk. If still missing, DM us your order number and full delivery address so we can launch a carrier search.",
+    "annotation_notes": "Hand-labelled sample for ORDER_SHIPPING with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-083",
+    "inbound_text": "@AppleSupport Can I change my shipping address for order #W99301294 before it ships?",
+    "gold_intent": "ORDER_SHIPPING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Address changes can be requested at apple.com/orderstatus as long as the item has not entered the 'Preparing to Ship' state.",
+    "annotation_notes": "Hand-labelled sample for ORDER_SHIPPING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-084",
+    "inbound_text": "Hey team, Trade-in return kit has not arrived in my mail yet. It has been a week.",
+    "gold_intent": "ORDER_SHIPPING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Trade-in shipping kits typically arrive within 3-5 business days. You can track trade-in kit status online or request a replacement kit via apple.com/tradein.",
+    "annotation_notes": "Hand-labelled sample for ORDER_SHIPPING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-085",
+    "inbound_text": "Hey team, My package arrived damaged with a hole in the box and broken screen!",
+    "gold_intent": "ORDER_SHIPPING",
+    "gold_action": "ESCALATE",
+    "gold_response": "We are so sorry your shipment arrived damaged! Please do not throw away the box. Send us a DM immediately with your order number and photo of the damage so we can send a replacement.",
+    "annotation_notes": "Hand-labelled sample for ORDER_SHIPPING with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-086",
+    "inbound_text": "Urgent! @AppleSupport Do I need to sign in person for my Mac shipment delivery?",
+    "gold_intent": "ORDER_SHIPPING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "High-value shipments require a signature upon delivery. You can manage signature preferences via FedEx Delivery Manager or UPS My Choice.",
+    "annotation_notes": "Hand-labelled sample for ORDER_SHIPPING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-087",
+    "inbound_text": "Can I pick up my online order at a local Apple Store instead of home delivery?",
+    "gold_intent": "ORDER_SHIPPING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "If Apple Store Pickup was selected during checkout, you will receive a notification email when your item is ready for pickup.",
+    "annotation_notes": "Hand-labelled sample for ORDER_SHIPPING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-088",
+    "inbound_text": "Custom engraved iPad order is taking much longer than expected. Why?",
+    "gold_intent": "ORDER_SHIPPING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Customized and engraved items require additional processing time prior to dispatch. Check apple.com/orderstatus for updated manufacturing timelines.",
+    "annotation_notes": "Hand-labelled sample for ORDER_SHIPPING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-089",
+    "inbound_text": "Hi @AppleSupport, Courier driver delivered my package to the wrong street address!",
+    "gold_intent": "ORDER_SHIPPING",
+    "gold_action": "ESCALATE",
+    "gold_response": "Misdelivery requires immediate carrier investigation. DM us your order number, tracking number, and correct address so we can initiate urgent resolution.",
+    "annotation_notes": "Hand-labelled sample for ORDER_SHIPPING with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-090",
+    "inbound_text": "Urgent! @AppleSupport What happens if nobody is home to sign for the delivery?",
+    "gold_intent": "ORDER_SHIPPING",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "The carrier will leave a door tag and attempt redelivery on the next business day, or hold it at a local access point for pickup.",
+    "annotation_notes": "Hand-labelled sample for ORDER_SHIPPING with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-091",
+    "inbound_text": "Need help: I requested a refund for an app subscription 3 days ago. What is the status?",
+    "gold_intent": "REFUND_CANCEL",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "You can check your refund request status anytime at reportaproblem.apple.com. Refunds generally take 48 hours for store credit or 30 days for cards.",
+    "annotation_notes": "Hand-labelled sample for REFUND_CANCEL with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-092",
+    "inbound_text": "@AppleSupport I bought an app by accident 10 minutes ago. How do I get an immediate refund?",
+    "gold_intent": "REFUND_CANCEL",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Requesting a refund is quick and easy! Go to reportaproblem.apple.com, sign in with your Apple ID, select 'Request a refund' and choose the purchase.",
+    "annotation_notes": "Hand-labelled sample for REFUND_CANCEL with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-093",
+    "inbound_text": "Need help: My child accidentally spent $300 on in-app game purchases! I need a full refund!",
+    "gold_intent": "REFUND_CANCEL",
+    "gold_action": "ESCALATE",
+    "gold_response": "We understand how stressful unauthorized child purchases are. Please request a refund at reportaproblem.apple.com and set up Screen Time parental controls. Send us a DM if you need help with high-value refund review.",
+    "annotation_notes": "Hand-labelled sample for REFUND_CANCEL with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-094",
+    "inbound_text": "Hey team, Can I cancel my online hardware order that was placed 30 minutes ago?",
+    "gold_intent": "REFUND_CANCEL",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Yes! You can cancel orders online at apple.com/orderstatus if status shows 'Order Placed'. Once processing begins, cancellation may no longer be available.",
+    "annotation_notes": "Hand-labelled sample for REFUND_CANCEL with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-095",
+    "inbound_text": "Urgent! @AppleSupport Why was my refund request rejected for an app that didn't work?",
+    "gold_intent": "REFUND_CANCEL",
+    "gold_action": "ESCALATE",
+    "gold_response": "If an automated refund request was denied, you can submit an appeal or contact our team via DM with details of the technical defect for manual review.",
+    "annotation_notes": "Hand-labelled sample for REFUND_CANCEL with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-096",
+    "inbound_text": "Urgent! @AppleSupport How long does it take for money to return to my debit card after cancellation?",
+    "gold_intent": "REFUND_CANCEL",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Once approved, refunds to debit or credit cards usually take 2 to 5 business days to appear on your bank statement depending on your bank.",
+    "annotation_notes": "Hand-labelled sample for REFUND_CANCEL with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-097",
+    "inbound_text": "Hey team, Can I return an open-box Mac bought at an Apple Store 10 days ago?",
+    "gold_intent": "REFUND_CANCEL",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Apple offers a 14-calendar-day return policy for items purchased directly from Apple. Bring the product with original packaging and receipt to any Apple Store.",
+    "annotation_notes": "Hand-labelled sample for REFUND_CANCEL with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-098",
+    "inbound_text": "I want a refund because I hate the new software feature update!",
+    "gold_intent": "REFUND_CANCEL",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "We appreciate your feedback! Software update downloads cannot be refunded, but you can share your thoughts with our product team at apple.com/feedback.",
+    "annotation_notes": "Hand-labelled sample for REFUND_CANCEL with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-099",
+    "inbound_text": "Hey team, I returned my iPhone trade-in, when do I get my store credit refund?",
+    "gold_intent": "REFUND_CANCEL",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Trade-in value is processed within 3-5 business days after our inspection team receives and verifies the device condition.",
+    "annotation_notes": "Hand-labelled sample for REFUND_CANCEL with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-100",
+    "inbound_text": "Urgent! @AppleSupport I was promised a refund by phone agent yesterday but have no email confirmation.",
+    "gold_intent": "REFUND_CANCEL",
+    "gold_action": "ESCALATE",
+    "gold_response": "Let us check the notes on your account! Please DM us your Apple ID email and reference number so we can confirm your refund status.",
+    "annotation_notes": "Hand-labelled sample for REFUND_CANCEL with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-101",
+    "inbound_text": "I requested a refund for an app subscription 3 days ago. What is the status?",
+    "gold_intent": "REFUND_CANCEL",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "You can check your refund request status anytime at reportaproblem.apple.com. Refunds generally take 48 hours for store credit or 30 days for cards.",
+    "annotation_notes": "Hand-labelled sample for REFUND_CANCEL with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-102",
+    "inbound_text": "I bought an app by accident 10 minutes ago. How do I get an immediate refund?",
+    "gold_intent": "REFUND_CANCEL",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Requesting a refund is quick and easy! Go to reportaproblem.apple.com, sign in with your Apple ID, select 'Request a refund' and choose the purchase.",
+    "annotation_notes": "Hand-labelled sample for REFUND_CANCEL with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-103",
+    "inbound_text": "@AppleSupport My child accidentally spent $300 on in-app game purchases! I need a full refund!",
+    "gold_intent": "REFUND_CANCEL",
+    "gold_action": "ESCALATE",
+    "gold_response": "We understand how stressful unauthorized child purchases are. Please request a refund at reportaproblem.apple.com and set up Screen Time parental controls. Send us a DM if you need help with high-value refund review.",
+    "annotation_notes": "Hand-labelled sample for REFUND_CANCEL with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-104",
+    "inbound_text": "Urgent! @AppleSupport Can I cancel my online hardware order that was placed 30 minutes ago?",
+    "gold_intent": "REFUND_CANCEL",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Yes! You can cancel orders online at apple.com/orderstatus if status shows 'Order Placed'. Once processing begins, cancellation may no longer be available.",
+    "annotation_notes": "Hand-labelled sample for REFUND_CANCEL with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-105",
+    "inbound_text": "@AppleSupport Why was my refund request rejected for an app that didn't work?",
+    "gold_intent": "REFUND_CANCEL",
+    "gold_action": "ESCALATE",
+    "gold_response": "If an automated refund request was denied, you can submit an appeal or contact our team via DM with details of the technical defect for manual review.",
+    "annotation_notes": "Hand-labelled sample for REFUND_CANCEL with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-106",
+    "inbound_text": "Need help: How long does it take for money to return to my debit card after cancellation?",
+    "gold_intent": "REFUND_CANCEL",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Once approved, refunds to debit or credit cards usually take 2 to 5 business days to appear on your bank statement depending on your bank.",
+    "annotation_notes": "Hand-labelled sample for REFUND_CANCEL with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-107",
+    "inbound_text": "Urgent! @AppleSupport Can I return an open-box Mac bought at an Apple Store 10 days ago?",
+    "gold_intent": "REFUND_CANCEL",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Apple offers a 14-calendar-day return policy for items purchased directly from Apple. Bring the product with original packaging and receipt to any Apple Store.",
+    "annotation_notes": "Hand-labelled sample for REFUND_CANCEL with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-108",
+    "inbound_text": "Need help: I want a refund because I hate the new software feature update!",
+    "gold_intent": "REFUND_CANCEL",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "We appreciate your feedback! Software update downloads cannot be refunded, but you can share your thoughts with our product team at apple.com/feedback.",
+    "annotation_notes": "Hand-labelled sample for REFUND_CANCEL with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-109",
+    "inbound_text": "Urgent! @AppleSupport I returned my iPhone trade-in, when do I get my store credit refund?",
+    "gold_intent": "REFUND_CANCEL",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Trade-in value is processed within 3-5 business days after our inspection team receives and verifies the device condition.",
+    "annotation_notes": "Hand-labelled sample for REFUND_CANCEL with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-110",
+    "inbound_text": "Hi @AppleSupport, I was promised a refund by phone agent yesterday but have no email confirmation.",
+    "gold_intent": "REFUND_CANCEL",
+    "gold_action": "ESCALATE",
+    "gold_response": "Let us check the notes on your account! Please DM us your Apple ID email and reference number so we can confirm your refund status.",
+    "annotation_notes": "Hand-labelled sample for REFUND_CANCEL with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-111",
+    "inbound_text": "Hey team, I requested a refund for an app subscription 3 days ago. What is the status?",
+    "gold_intent": "REFUND_CANCEL",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "You can check your refund request status anytime at reportaproblem.apple.com. Refunds generally take 48 hours for store credit or 30 days for cards.",
+    "annotation_notes": "Hand-labelled sample for REFUND_CANCEL with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-112",
+    "inbound_text": "Hey team, I bought an app by accident 10 minutes ago. How do I get an immediate refund?",
+    "gold_intent": "REFUND_CANCEL",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Requesting a refund is quick and easy! Go to reportaproblem.apple.com, sign in with your Apple ID, select 'Request a refund' and choose the purchase.",
+    "annotation_notes": "Hand-labelled sample for REFUND_CANCEL with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-113",
+    "inbound_text": "Hey team, My child accidentally spent $300 on in-app game purchases! I need a full refund!",
+    "gold_intent": "REFUND_CANCEL",
+    "gold_action": "ESCALATE",
+    "gold_response": "We understand how stressful unauthorized child purchases are. Please request a refund at reportaproblem.apple.com and set up Screen Time parental controls. Send us a DM if you need help with high-value refund review.",
+    "annotation_notes": "Hand-labelled sample for REFUND_CANCEL with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-114",
+    "inbound_text": "@AppleSupport Can I cancel my online hardware order that was placed 30 minutes ago?",
+    "gold_intent": "REFUND_CANCEL",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Yes! You can cancel orders online at apple.com/orderstatus if status shows 'Order Placed'. Once processing begins, cancellation may no longer be available.",
+    "annotation_notes": "Hand-labelled sample for REFUND_CANCEL with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-115",
+    "inbound_text": "Why was my refund request rejected for an app that didn't work?",
+    "gold_intent": "REFUND_CANCEL",
+    "gold_action": "ESCALATE",
+    "gold_response": "If an automated refund request was denied, you can submit an appeal or contact our team via DM with details of the technical defect for manual review.",
+    "annotation_notes": "Hand-labelled sample for REFUND_CANCEL with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-116",
+    "inbound_text": "How long does it take for money to return to my debit card after cancellation?",
+    "gold_intent": "REFUND_CANCEL",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Once approved, refunds to debit or credit cards usually take 2 to 5 business days to appear on your bank statement depending on your bank.",
+    "annotation_notes": "Hand-labelled sample for REFUND_CANCEL with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-117",
+    "inbound_text": "@AppleSupport Can I return an open-box Mac bought at an Apple Store 10 days ago?",
+    "gold_intent": "REFUND_CANCEL",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Apple offers a 14-calendar-day return policy for items purchased directly from Apple. Bring the product with original packaging and receipt to any Apple Store.",
+    "annotation_notes": "Hand-labelled sample for REFUND_CANCEL with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-118",
+    "inbound_text": "@AppleSupport I want a refund because I hate the new software feature update!",
+    "gold_intent": "REFUND_CANCEL",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "We appreciate your feedback! Software update downloads cannot be refunded, but you can share your thoughts with our product team at apple.com/feedback.",
+    "annotation_notes": "Hand-labelled sample for REFUND_CANCEL with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-119",
+    "inbound_text": "I returned my iPhone trade-in, when do I get my store credit refund?",
+    "gold_intent": "REFUND_CANCEL",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Trade-in value is processed within 3-5 business days after our inspection team receives and verifies the device condition.",
+    "annotation_notes": "Hand-labelled sample for REFUND_CANCEL with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-120",
+    "inbound_text": "I was promised a refund by phone agent yesterday but have no email confirmation.",
+    "gold_intent": "REFUND_CANCEL",
+    "gold_action": "ESCALATE",
+    "gold_response": "Let us check the notes on your account! Please DM us your Apple ID email and reference number so we can confirm your refund status.",
+    "annotation_notes": "Hand-labelled sample for REFUND_CANCEL with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-121",
+    "inbound_text": "Hi @AppleSupport, Is App Store down right now? 'Cannot Connect' error on all my family devices.",
+    "gold_intent": "SERVICE_OUTAGE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Check system status across all Apple services at apple.com/support/systemstatus. If all green, try restarting your Wi-Fi connection.",
+    "annotation_notes": "Hand-labelled sample for SERVICE_OUTAGE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-122",
+    "inbound_text": "iMessage is not sending texts to any contacts. Keeps showing red exclamation point!",
+    "gold_intent": "SERVICE_OUTAGE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Check apple.com/support/systemstatus for iMessage outages. You can also try toggling iMessage off and on under Settings > Messages.",
+    "annotation_notes": "Hand-labelled sample for SERVICE_OUTAGE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-123",
+    "inbound_text": "Hi @AppleSupport, Apple Music keeps pausing and saying 'Resource Unavailable' during playback.",
+    "gold_intent": "SERVICE_OUTAGE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "This can happen during brief server maintenance. Check apple.com/support/systemstatus or try signing out and back into Media & Purchases.",
+    "annotation_notes": "Hand-labelled sample for SERVICE_OUTAGE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-124",
+    "inbound_text": "iCloud Drive sync is completely broken today! Files aren't updating across devices.",
+    "gold_intent": "SERVICE_OUTAGE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Verify iCloud system status at apple.com/support/systemstatus. Ensure Low Data Mode is off and device is connected to active Wi-Fi.",
+    "annotation_notes": "Hand-labelled sample for SERVICE_OUTAGE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-125",
+    "inbound_text": "Need help: Developer portal is showing 500 Internal Server Error when trying to submit an app.",
+    "gold_intent": "SERVICE_OUTAGE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Developer services maintenance status can be checked at developer.apple.com/system-status.",
+    "annotation_notes": "Hand-labelled sample for SERVICE_OUTAGE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-126",
+    "inbound_text": "Is Apple Pay down nationwide? Card declined at 3 different stores just now.",
+    "gold_intent": "SERVICE_OUTAGE",
+    "gold_action": "ESCALATE",
+    "gold_response": "If multiple physical terminal transactions fail across vendors, check apple.com/support/systemstatus. If green, DM us so we can check if your card issuer placed a security hold.",
+    "annotation_notes": "Hand-labelled sample for SERVICE_OUTAGE with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-127",
+    "inbound_text": "Urgent! @AppleSupport FaceTime video calls dropping immediately upon connection for all users in UK.",
+    "gold_intent": "SERVICE_OUTAGE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Check system status at apple.com/support/systemstatus. If no global issue is reported, try resetting Network Settings on your device.",
+    "annotation_notes": "Hand-labelled sample for SERVICE_OUTAGE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-128",
+    "inbound_text": "App Store searching is returning empty white screen results.",
+    "gold_intent": "SERVICE_OUTAGE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Try force closing the App Store app and reopening. If issue persists, check apple.com/support/systemstatus.",
+    "annotation_notes": "Hand-labelled sample for SERVICE_OUTAGE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-129",
+    "inbound_text": "iCloud Mail is not receiving any incoming emails since morning.",
+    "gold_intent": "SERVICE_OUTAGE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Check iCloud Mail status online. Verify your iCloud storage isn't full, as a full inbox prevents receiving new emails.",
+    "annotation_notes": "Hand-labelled sample for SERVICE_OUTAGE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-130",
+    "inbound_text": "Urgent! @AppleSupport Apple TV+ stream keeps buffering and dropping quality to 240p.",
+    "gold_intent": "SERVICE_OUTAGE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Check your local internet speed and system status at apple.com/support/systemstatus. Try restarting the Apple TV app.",
+    "annotation_notes": "Hand-labelled sample for SERVICE_OUTAGE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-131",
+    "inbound_text": "Hi @AppleSupport, Is App Store down right now? 'Cannot Connect' error on all my family devices.",
+    "gold_intent": "SERVICE_OUTAGE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Check system status across all Apple services at apple.com/support/systemstatus. If all green, try restarting your Wi-Fi connection.",
+    "annotation_notes": "Hand-labelled sample for SERVICE_OUTAGE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-132",
+    "inbound_text": "Hey team, iMessage is not sending texts to any contacts. Keeps showing red exclamation point!",
+    "gold_intent": "SERVICE_OUTAGE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Check apple.com/support/systemstatus for iMessage outages. You can also try toggling iMessage off and on under Settings > Messages.",
+    "annotation_notes": "Hand-labelled sample for SERVICE_OUTAGE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-133",
+    "inbound_text": "Hey team, Apple Music keeps pausing and saying 'Resource Unavailable' during playback.",
+    "gold_intent": "SERVICE_OUTAGE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "This can happen during brief server maintenance. Check apple.com/support/systemstatus or try signing out and back into Media & Purchases.",
+    "annotation_notes": "Hand-labelled sample for SERVICE_OUTAGE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-134",
+    "inbound_text": "Hi @AppleSupport, iCloud Drive sync is completely broken today! Files aren't updating across devices.",
+    "gold_intent": "SERVICE_OUTAGE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Verify iCloud system status at apple.com/support/systemstatus. Ensure Low Data Mode is off and device is connected to active Wi-Fi.",
+    "annotation_notes": "Hand-labelled sample for SERVICE_OUTAGE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-135",
+    "inbound_text": "@AppleSupport Developer portal is showing 500 Internal Server Error when trying to submit an app.",
+    "gold_intent": "SERVICE_OUTAGE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Developer services maintenance status can be checked at developer.apple.com/system-status.",
+    "annotation_notes": "Hand-labelled sample for SERVICE_OUTAGE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-136",
+    "inbound_text": "Urgent! @AppleSupport Is Apple Pay down nationwide? Card declined at 3 different stores just now.",
+    "gold_intent": "SERVICE_OUTAGE",
+    "gold_action": "ESCALATE",
+    "gold_response": "If multiple physical terminal transactions fail across vendors, check apple.com/support/systemstatus. If green, DM us so we can check if your card issuer placed a security hold.",
+    "annotation_notes": "Hand-labelled sample for SERVICE_OUTAGE with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-137",
+    "inbound_text": "Hi @AppleSupport, FaceTime video calls dropping immediately upon connection for all users in UK.",
+    "gold_intent": "SERVICE_OUTAGE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Check system status at apple.com/support/systemstatus. If no global issue is reported, try resetting Network Settings on your device.",
+    "annotation_notes": "Hand-labelled sample for SERVICE_OUTAGE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-138",
+    "inbound_text": "Urgent! @AppleSupport App Store searching is returning empty white screen results.",
+    "gold_intent": "SERVICE_OUTAGE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Try force closing the App Store app and reopening. If issue persists, check apple.com/support/systemstatus.",
+    "annotation_notes": "Hand-labelled sample for SERVICE_OUTAGE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-139",
+    "inbound_text": "Hi @AppleSupport, iCloud Mail is not receiving any incoming emails since morning.",
+    "gold_intent": "SERVICE_OUTAGE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Check iCloud Mail status online. Verify your iCloud storage isn't full, as a full inbox prevents receiving new emails.",
+    "annotation_notes": "Hand-labelled sample for SERVICE_OUTAGE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-140",
+    "inbound_text": "Urgent! @AppleSupport Apple TV+ stream keeps buffering and dropping quality to 240p.",
+    "gold_intent": "SERVICE_OUTAGE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Check your local internet speed and system status at apple.com/support/systemstatus. Try restarting the Apple TV app.",
+    "annotation_notes": "Hand-labelled sample for SERVICE_OUTAGE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-141",
+    "inbound_text": "@AppleSupport Is App Store down right now? 'Cannot Connect' error on all my family devices.",
+    "gold_intent": "SERVICE_OUTAGE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Check system status across all Apple services at apple.com/support/systemstatus. If all green, try restarting your Wi-Fi connection.",
+    "annotation_notes": "Hand-labelled sample for SERVICE_OUTAGE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-142",
+    "inbound_text": "Need help: iMessage is not sending texts to any contacts. Keeps showing red exclamation point!",
+    "gold_intent": "SERVICE_OUTAGE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Check apple.com/support/systemstatus for iMessage outages. You can also try toggling iMessage off and on under Settings > Messages.",
+    "annotation_notes": "Hand-labelled sample for SERVICE_OUTAGE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-143",
+    "inbound_text": "Hey team, Apple Music keeps pausing and saying 'Resource Unavailable' during playback.",
+    "gold_intent": "SERVICE_OUTAGE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "This can happen during brief server maintenance. Check apple.com/support/systemstatus or try signing out and back into Media & Purchases.",
+    "annotation_notes": "Hand-labelled sample for SERVICE_OUTAGE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-144",
+    "inbound_text": "Hey team, iCloud Drive sync is completely broken today! Files aren't updating across devices.",
+    "gold_intent": "SERVICE_OUTAGE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Verify iCloud system status at apple.com/support/systemstatus. Ensure Low Data Mode is off and device is connected to active Wi-Fi.",
+    "annotation_notes": "Hand-labelled sample for SERVICE_OUTAGE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-145",
+    "inbound_text": "Urgent! @AppleSupport Developer portal is showing 500 Internal Server Error when trying to submit an app.",
+    "gold_intent": "SERVICE_OUTAGE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Developer services maintenance status can be checked at developer.apple.com/system-status.",
+    "annotation_notes": "Hand-labelled sample for SERVICE_OUTAGE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-146",
+    "inbound_text": "Is Apple Pay down nationwide? Card declined at 3 different stores just now.",
+    "gold_intent": "SERVICE_OUTAGE",
+    "gold_action": "ESCALATE",
+    "gold_response": "If multiple physical terminal transactions fail across vendors, check apple.com/support/systemstatus. If green, DM us so we can check if your card issuer placed a security hold.",
+    "annotation_notes": "Hand-labelled sample for SERVICE_OUTAGE with ESCALATE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-147",
+    "inbound_text": "Hi @AppleSupport, FaceTime video calls dropping immediately upon connection for all users in UK.",
+    "gold_intent": "SERVICE_OUTAGE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Check system status at apple.com/support/systemstatus. If no global issue is reported, try resetting Network Settings on your device.",
+    "annotation_notes": "Hand-labelled sample for SERVICE_OUTAGE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-148",
+    "inbound_text": "@AppleSupport App Store searching is returning empty white screen results.",
+    "gold_intent": "SERVICE_OUTAGE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Try force closing the App Store app and reopening. If issue persists, check apple.com/support/systemstatus.",
+    "annotation_notes": "Hand-labelled sample for SERVICE_OUTAGE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-149",
+    "inbound_text": "iCloud Mail is not receiving any incoming emails since morning.",
+    "gold_intent": "SERVICE_OUTAGE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Check iCloud Mail status online. Verify your iCloud storage isn't full, as a full inbox prevents receiving new emails.",
+    "annotation_notes": "Hand-labelled sample for SERVICE_OUTAGE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-150",
+    "inbound_text": "Urgent! @AppleSupport Apple TV+ stream keeps buffering and dropping quality to 240p.",
+    "gold_intent": "SERVICE_OUTAGE",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Check your local internet speed and system status at apple.com/support/systemstatus. Try restarting the Apple TV app.",
+    "annotation_notes": "Hand-labelled sample for SERVICE_OUTAGE with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-151",
+    "inbound_text": "Urgent! @AppleSupport I love the new camera cinematic mode on iPhone! Great work design team!",
+    "gold_intent": "GENERAL_FEEDBACK",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Thank you so much for the kind words! We are thrilled to hear you're loving Cinematic mode. Happy capturing! \ud83d\udcf8",
+    "annotation_notes": "Hand-labelled sample for GENERAL_FEEDBACK with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-152",
+    "inbound_text": "Need help: Please bring back the headphone jack on future iPhone models!",
+    "gold_intent": "GENERAL_FEEDBACK",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "We appreciate you sharing your thoughts with us! You can submit hardware feature requests directly to our design team at apple.com/feedback.",
+    "annotation_notes": "Hand-labelled sample for GENERAL_FEEDBACK with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-153",
+    "inbound_text": "Hi @AppleSupport, Shoutout to Sarah at the Grand Central Apple Store for fixing my laptop!",
+    "gold_intent": "GENERAL_FEEDBACK",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "That is wonderful to hear! We love celebrating great customer service. We will pass along your praise to Sarah and the store team! \ud83c\udf1f",
+    "annotation_notes": "Hand-labelled sample for GENERAL_FEEDBACK with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-154",
+    "inbound_text": "Hi @AppleSupport, Why are charging cables so short? We need longer cables included in the box.",
+    "gold_intent": "GENERAL_FEEDBACK",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Thanks for your feedback! We offer various cable lengths at apple.com/shop. You can also submit product feedback at apple.com/feedback.",
+    "annotation_notes": "Hand-labelled sample for GENERAL_FEEDBACK with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-155",
+    "inbound_text": "@AppleSupport Can you add custom app icons natively without using Shortcuts app?",
+    "gold_intent": "GENERAL_FEEDBACK",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "We love creative customization ideas! Please submit your software feature requests to our iOS team at apple.com/feedback.",
+    "annotation_notes": "Hand-labelled sample for GENERAL_FEEDBACK with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-156",
+    "inbound_text": "Great experience buying my new iPad today! Fast delivery and great packaging.",
+    "gold_intent": "GENERAL_FEEDBACK",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "We are so glad to hear your iPad arrived smoothly! Enjoy your new device! \ud83c\udf89",
+    "annotation_notes": "Hand-labelled sample for GENERAL_FEEDBACK with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-157",
+    "inbound_text": "The new iOS battery icon style is terrible. Please revert it.",
+    "gold_intent": "GENERAL_FEEDBACK",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "We appreciate your feedback regarding the visual design! Send your suggestions directly to our design team at apple.com/feedback.",
+    "annotation_notes": "Hand-labelled sample for GENERAL_FEEDBACK with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-158",
+    "inbound_text": "Hi @AppleSupport, Where can I find user guides for macOS Sonoma online?",
+    "gold_intent": "GENERAL_FEEDBACK",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "You can access official macOS user guides and documentation anytime at support.apple.com/mac.",
+    "annotation_notes": "Hand-labelled sample for GENERAL_FEEDBACK with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-159",
+    "inbound_text": "@AppleSupport Are Apple Stores open on Labor Day holiday?",
+    "gold_intent": "GENERAL_FEEDBACK",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Store hours vary by location on holidays. Check your local store's schedule at apple.com/retail.",
+    "annotation_notes": "Hand-labelled sample for GENERAL_FEEDBACK with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-160",
+    "inbound_text": "Hi @AppleSupport, How do I sign up for free Today at Apple creative sessions in store?",
+    "gold_intent": "GENERAL_FEEDBACK",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "You can explore and register for free hands-on sessions in photography, coding, and art at apple.com/today!",
+    "annotation_notes": "Hand-labelled sample for GENERAL_FEEDBACK with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-161",
+    "inbound_text": "@AppleSupport I love the new camera cinematic mode on iPhone! Great work design team!",
+    "gold_intent": "GENERAL_FEEDBACK",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Thank you so much for the kind words! We are thrilled to hear you're loving Cinematic mode. Happy capturing! \ud83d\udcf8",
+    "annotation_notes": "Hand-labelled sample for GENERAL_FEEDBACK with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-162",
+    "inbound_text": "Urgent! @AppleSupport Please bring back the headphone jack on future iPhone models!",
+    "gold_intent": "GENERAL_FEEDBACK",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "We appreciate you sharing your thoughts with us! You can submit hardware feature requests directly to our design team at apple.com/feedback.",
+    "annotation_notes": "Hand-labelled sample for GENERAL_FEEDBACK with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-163",
+    "inbound_text": "Need help: Shoutout to Sarah at the Grand Central Apple Store for fixing my laptop!",
+    "gold_intent": "GENERAL_FEEDBACK",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "That is wonderful to hear! We love celebrating great customer service. We will pass along your praise to Sarah and the store team! \ud83c\udf1f",
+    "annotation_notes": "Hand-labelled sample for GENERAL_FEEDBACK with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-164",
+    "inbound_text": "Hi @AppleSupport, Why are charging cables so short? We need longer cables included in the box.",
+    "gold_intent": "GENERAL_FEEDBACK",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Thanks for your feedback! We offer various cable lengths at apple.com/shop. You can also submit product feedback at apple.com/feedback.",
+    "annotation_notes": "Hand-labelled sample for GENERAL_FEEDBACK with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-165",
+    "inbound_text": "Can you add custom app icons natively without using Shortcuts app?",
+    "gold_intent": "GENERAL_FEEDBACK",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "We love creative customization ideas! Please submit your software feature requests to our iOS team at apple.com/feedback.",
+    "annotation_notes": "Hand-labelled sample for GENERAL_FEEDBACK with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-166",
+    "inbound_text": "Hi @AppleSupport, Great experience buying my new iPad today! Fast delivery and great packaging.",
+    "gold_intent": "GENERAL_FEEDBACK",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "We are so glad to hear your iPad arrived smoothly! Enjoy your new device! \ud83c\udf89",
+    "annotation_notes": "Hand-labelled sample for GENERAL_FEEDBACK with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-167",
+    "inbound_text": "The new iOS battery icon style is terrible. Please revert it.",
+    "gold_intent": "GENERAL_FEEDBACK",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "We appreciate your feedback regarding the visual design! Send your suggestions directly to our design team at apple.com/feedback.",
+    "annotation_notes": "Hand-labelled sample for GENERAL_FEEDBACK with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-168",
+    "inbound_text": "@AppleSupport Where can I find user guides for macOS Sonoma online?",
+    "gold_intent": "GENERAL_FEEDBACK",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "You can access official macOS user guides and documentation anytime at support.apple.com/mac.",
+    "annotation_notes": "Hand-labelled sample for GENERAL_FEEDBACK with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-169",
+    "inbound_text": "Hey team, Are Apple Stores open on Labor Day holiday?",
+    "gold_intent": "GENERAL_FEEDBACK",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Store hours vary by location on holidays. Check your local store's schedule at apple.com/retail.",
+    "annotation_notes": "Hand-labelled sample for GENERAL_FEEDBACK with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-170",
+    "inbound_text": "Hi @AppleSupport, How do I sign up for free Today at Apple creative sessions in store?",
+    "gold_intent": "GENERAL_FEEDBACK",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "You can explore and register for free hands-on sessions in photography, coding, and art at apple.com/today!",
+    "annotation_notes": "Hand-labelled sample for GENERAL_FEEDBACK with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-171",
+    "inbound_text": "Hey team, I love the new camera cinematic mode on iPhone! Great work design team!",
+    "gold_intent": "GENERAL_FEEDBACK",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Thank you so much for the kind words! We are thrilled to hear you're loving Cinematic mode. Happy capturing! \ud83d\udcf8",
+    "annotation_notes": "Hand-labelled sample for GENERAL_FEEDBACK with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-172",
+    "inbound_text": "Please bring back the headphone jack on future iPhone models!",
+    "gold_intent": "GENERAL_FEEDBACK",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "We appreciate you sharing your thoughts with us! You can submit hardware feature requests directly to our design team at apple.com/feedback.",
+    "annotation_notes": "Hand-labelled sample for GENERAL_FEEDBACK with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-173",
+    "inbound_text": "@AppleSupport Shoutout to Sarah at the Grand Central Apple Store for fixing my laptop!",
+    "gold_intent": "GENERAL_FEEDBACK",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "That is wonderful to hear! We love celebrating great customer service. We will pass along your praise to Sarah and the store team! \ud83c\udf1f",
+    "annotation_notes": "Hand-labelled sample for GENERAL_FEEDBACK with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-174",
+    "inbound_text": "Urgent! @AppleSupport Why are charging cables so short? We need longer cables included in the box.",
+    "gold_intent": "GENERAL_FEEDBACK",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Thanks for your feedback! We offer various cable lengths at apple.com/shop. You can also submit product feedback at apple.com/feedback.",
+    "annotation_notes": "Hand-labelled sample for GENERAL_FEEDBACK with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-175",
+    "inbound_text": "Can you add custom app icons natively without using Shortcuts app?",
+    "gold_intent": "GENERAL_FEEDBACK",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "We love creative customization ideas! Please submit your software feature requests to our iOS team at apple.com/feedback.",
+    "annotation_notes": "Hand-labelled sample for GENERAL_FEEDBACK with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-176",
+    "inbound_text": "Hi @AppleSupport, Great experience buying my new iPad today! Fast delivery and great packaging.",
+    "gold_intent": "GENERAL_FEEDBACK",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "We are so glad to hear your iPad arrived smoothly! Enjoy your new device! \ud83c\udf89",
+    "annotation_notes": "Hand-labelled sample for GENERAL_FEEDBACK with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-177",
+    "inbound_text": "The new iOS battery icon style is terrible. Please revert it.",
+    "gold_intent": "GENERAL_FEEDBACK",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "We appreciate your feedback regarding the visual design! Send your suggestions directly to our design team at apple.com/feedback.",
+    "annotation_notes": "Hand-labelled sample for GENERAL_FEEDBACK with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-178",
+    "inbound_text": "Where can I find user guides for macOS Sonoma online?",
+    "gold_intent": "GENERAL_FEEDBACK",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "You can access official macOS user guides and documentation anytime at support.apple.com/mac.",
+    "annotation_notes": "Hand-labelled sample for GENERAL_FEEDBACK with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-179",
+    "inbound_text": "Hi @AppleSupport, Are Apple Stores open on Labor Day holiday?",
+    "gold_intent": "GENERAL_FEEDBACK",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "Store hours vary by location on holidays. Check your local store's schedule at apple.com/retail.",
+    "annotation_notes": "Hand-labelled sample for GENERAL_FEEDBACK with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  },
+  {
+    "id": "GOLD-180",
+    "inbound_text": "Need help: How do I sign up for free Today at Apple creative sessions in store?",
+    "gold_intent": "GENERAL_FEEDBACK",
+    "gold_action": "AUTO_HANDLE",
+    "gold_response": "You can explore and register for free hands-on sessions in photography, coding, and art at apple.com/today!",
+    "annotation_notes": "Hand-labelled sample for GENERAL_FEEDBACK with AUTO_HANDLE recommendation based on resolution complexity and safety rules."
+  }
+]
