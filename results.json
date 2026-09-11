@@ -1,5 +1,5 @@
 {
-  "execution_time_seconds": 0.8,
+  "execution_time_seconds": 0.81,
   "trivial_baseline": {
     "total_samples": 180,
     "intent_classification": {
@@ -9,55 +9,55 @@
       "macro_f1": 0.0476
     },
     "escalation_routing": {
-      "accuracy": 0.7667,
+      "accuracy": 0.8,
       "precision": 0.0,
       "recall": 0.0,
       "f1": 0.0
     },
     "reply_quality": {
-      "avg_jaccard_similarity": 0.0996,
+      "avg_jaccard_similarity": 0.0894,
       "llm_judge_avg_score": 4.26,
-      "human_judge_agreement_correlation": 0.2617
+      "human_judge_agreement_correlation": 0.461
     }
   },
   "simple_baseline": {
     "total_samples": 180,
     "intent_classification": {
-      "accuracy": 1.0,
-      "precision": 1.0,
-      "recall": 1.0,
-      "macro_f1": 1.0
+      "accuracy": 0.8167,
+      "precision": 0.8188,
+      "recall": 0.8167,
+      "macro_f1": 0.8142
     },
     "escalation_routing": {
-      "accuracy": 0.75,
-      "precision": 0.4545,
-      "recall": 0.3571,
-      "f1": 0.4
+      "accuracy": 0.7333,
+      "precision": 0.25,
+      "recall": 0.1667,
+      "f1": 0.2
     },
     "reply_quality": {
-      "avg_jaccard_similarity": 0.1596,
-      "llm_judge_avg_score": 4.14,
-      "human_judge_agreement_correlation": 0.9314
+      "avg_jaccard_similarity": 0.122,
+      "llm_judge_avg_score": 4.19,
+      "human_judge_agreement_correlation": 0.9677
     }
   },
   "main_agent": {
     "total_samples": 180,
     "intent_classification": {
-      "accuracy": 1.0,
-      "precision": 1.0,
-      "recall": 1.0,
-      "macro_f1": 1.0
+      "accuracy": 0.8167,
+      "precision": 0.8307,
+      "recall": 0.8167,
+      "macro_f1": 0.8169
     },
     "escalation_routing": {
-      "accuracy": 0.7556,
-      "precision": 0.4286,
-      "recall": 0.1429,
-      "f1": 0.2143
+      "accuracy": 0.6778,
+      "precision": 0.1944,
+      "recall": 0.1944,
+      "f1": 0.1944
     },
     "reply_quality": {
-      "avg_jaccard_similarity": 0.159,
-      "llm_judge_avg_score": 4.59,
-      "human_judge_agreement_correlation": 0.641
+      "avg_jaccard_similarity": 0.1171,
+      "llm_judge_avg_score": 4.53,
+      "human_judge_agreement_correlation": 0.6177
     }
   }
 }

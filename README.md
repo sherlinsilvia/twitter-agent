@@ -38,13 +38,13 @@ Evaluated on **Golden Evaluation Set (180 curated gold-standard multi-turn examp
 
 | Metric | Baseline 1 (Trivial) | Baseline 2 (Simple) | Main AI Agent (Ours) |
 | :--- | :---: | :---: | :---: |
-| **Intent Accuracy** | 16.67% | 100.00% | **100.00%** |
-| **Intent Macro F1** | 0.0476 | 1.0000 | **1.0000** |
-| **Escalation Precision** | 0.00% | 45.45% | **42.86%** |
-| **Escalation Recall** | 0.00% | 35.71% | **14.29%** |
-| **Reply Overlap (Jaccard)** | 0.0996 | 0.1596 | **0.1590** |
-| **LLM-as-Judge Score (1-5)** | 4.26 / 5.0 | 4.14 / 5.0 | **4.59 / 5.0** |
-| **Human-Judge Agreement** | 0.5289 | 0.9767 | **0.8679** |
+| **Intent Accuracy** | 16.67% | 81.67% | **81.67%** |
+| **Intent Macro F1** | 0.0476 | 0.8142 | **0.8169** |
+| **Escalation Precision** | 0.00% | 25.00% | **19.44%** |
+| **Escalation Recall** | 0.00% | 16.67% | **19.44%** |
+| **Reply Overlap (Jaccard)** | 0.0894 | 0.1220 | **0.1171** |
+| **LLM-as-Judge Score (1-5)** | 4.26 / 5.0 | 4.19 / 5.0 | **4.53 / 5.0** |
+| **Human-Judge Agreement** | 0.4610 | 0.9677 | **0.6177** |
 
 ---
 
