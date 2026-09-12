@@ -1,12 +1,9 @@
-# Hiver SDE Intern Take-Home Assignment — AI Customer Support Agent
+# AI Customer Support Agent
 
 > **Grounded AI Support Agent for Twitter Brand Customer Service (`@AppleSupport`)**
 > Features: Intent Classification, Retrieval-Augmented Generation (RAG) Grounded Replies, Explainable Escalation Guardrails, and Evaluation Harness with LLM-as-Judge.
 
 ---
-
-## 🚀 Quickstart — Reproduce Headline Results (< 1 minute)
-
 ### 1. Clone & Set Up Environment
 ```bash
 git clone <your-repo-link>
